@@ -315,27 +315,4 @@ Full instructions, runtimes and the Kaggle dataset route: [`RUN_ORDER.md`](RUN_O
 
 ---
 
-## Résumé summary
 
-> Built **A.R.C.**, an end-to-end catastrophe risk modelling platform in Python
-> and SQL: a 1,000-year stochastic cyclone simulation (2,465 events) over a
-> 2,000-property portfolio producing EP curves, AAL and 250-year OEP, plus a SQL
-> reconciliation engine using CTEs and window functions that classifies loss
-> discrepancies between model variants by root cause at 100% precision.
-> Demonstrated that model divergence is severity-dependent (+12.0% at the
-> 10-year return period vs +4.0% at the 1,000-year) and that 43.7% of
-> cross-model variance was attributable to fixable data defects rather than
-> genuine model uncertainty.
-
-## Interview talking points
-
-- Why loss-free years must remain in the EP calculation, and what breaks if they don't.
-- Why a coefficient of variation of 2.16 is the quantitative argument for buying reinsurance.
-- Why "1-in-250" is an annual probability, not a schedule — implying roughly a
-  3.9% chance of occurrence across a 10-year treaty.
-- Why the reconciliation separates *data defects* (fixable) from *model
-  uncertainty* (genuine), and why that distinction is what a broker actually needs.
-- Why a single "the models differ by X%" figure is misleading, and how the
-  divergence narrows from +12.0% to +4.0% across the loss curve.
-- Why AAL concentrated in 9.9% of risks by count is a portfolio finding rather
-  than a modelling error.
