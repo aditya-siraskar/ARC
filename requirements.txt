@@ -1,0 +1,5 @@
+# All four are preinstalled on Kaggle; this file is for running locally.
+numpy>=1.24
+pandas>=2.0
+matplotlib>=3.7
+# sqlite3 is part of the Python standard library - no install needed.
